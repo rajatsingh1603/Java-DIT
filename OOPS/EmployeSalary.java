@@ -46,7 +46,7 @@ public class EmployeSalary {
     }
     
     Locale getLocale(){
-        Locale locale = new Locale("hi","IN");
+        Locale locale = new Locale("hi");
         return locale;
 
     }
