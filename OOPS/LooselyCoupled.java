@@ -2,6 +2,23 @@ interface IProducer{
     void show();
     void input();
 }
+
+class EnhancedProducer implements IProducer{
+
+    @Override
+    public void show() {
+    
+        System.out.println("EnProducer show");
+        
+    }
+
+    @Override
+    public void input() {
+    
+        System.out.println("EnProducer input");
+    }
+    
+}
 class Producer implements IProducer{
 
     @Override
